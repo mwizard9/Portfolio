@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.sidebar{
+    background-color: rgb(144, 90, 196);
+    width: 434px;
+    height: 150vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sidebar img{
+    width: 130px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 100px;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+  
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: aquamarine;
+    width: 90vw;
+}
+
+.contaner{
+    display: flex;
+}
+
+.info{
+   
+    height: 60vh;
+    width: 70vw;
+    margin: 146px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divpic img{
+    width: 300px;
+    height: 60vh;
+}
+.button{
+    margin-top: 30px;
+    padding: 10px;
+   
+   
+}
+.button button{
+    width: 10vw;
+    background-color: aqua;
+    margin: 0 3px;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+
+.button button:hover{
+    background-color: blueviolet;
+    color: bisque;
+}
+
+.hello{
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.about{
+    font-size: 35px;
+
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.form{
+   
+    padding: 100px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.form h{
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.form form div{
+    padding: 15px 0;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    font-size: 20px;
+}
+
+.form form div input{
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: green;
+    margin: 0 3px;
+    
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    margin: 3px 0;
+    width: 15px;
+}
+
+.blogitem{
+    margin: 25px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.blog h1{
+    margin: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.blogitem p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.intro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 12px;
+}
+
+.intro p{
+    margin: 2px 20px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.skills{
+    width: 100px;
+    height: 15px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 255px;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+
+}
+.fourty{
+    width: 110px;
+    background-color: blue;
+}
+.t5{
+    width: 75px;
+    background-color: blueviolet;
+}
+
+@media (max-width: 1200px) {
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+}
+
